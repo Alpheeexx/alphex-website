@@ -1,0 +1,12 @@
+[book]
+authors = ["Alphex"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Alphex's HTB Writeups"
+
+[output.html]
+git-repository-url = "https://github.com/Alpheeexx/alphex-website/tree/writeups"
+edit-url-template = "https://github.com/Alpheeexx/alphex-website/edit/writeups/{path}"
+additional-css = ["style.css"]
+additional-js = ["sidebar.js"]

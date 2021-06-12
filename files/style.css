@@ -1,0 +1,44 @@
+body {
+  background-color: #eee;
+  transition: color 1s ease, background-color 1s ease;
+  font: 16px 'Roboto', sans-serif;
+}
+
+body.dark {
+  background-color: #312f2f;
+  color: #fff;
+}
+
+body.dark .card:hover {
+  box-shadow: 6px 6px 10px 4px #000
+}
+
+body.dark .btn {
+  background-color: #EE6F73;
+}
+
+body.dark .divider {
+  opacity: 0.2;
+}
+
+body.dark .card {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.card.medium .card-image {
+  max-height: 40%;
+  overflow: hidden;
+}
+
+.card.medium .card-image+.card-content {
+  max-height: 60%;
+}
+
+.card:hover {
+  box-shadow: 6px 6px 10px 4px #ccc
+}
+
+img.card {
+  height: 160px;
+  margin: auto;
+}

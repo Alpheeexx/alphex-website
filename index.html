@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Alphex</title>
+  <meta name="description" content="Alphex's site">
+  <meta name="keywords" content="alphex, gaming, alphexgaming, 'alphex gaming'">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="-FkUHMhVYtUxe6BGBe4f8lept2mdIqMOiq5bLHPVpI8" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="files/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <h1>Alphex</h1>
+        <br />
+        <h5>I make things
+          <span style="font-size:50%;">(sometimes)</span>
+        </h5>
+        <div class="divider"></div>
+      </div>
+    </div>
+    <div class="row" id="boxes">
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image">
+            <img style="height:160px;width:160px;margin:auto;" src="files\images\imgswitch.svg">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Image replacer</span>
+            <p>This chrome extension replaces (almost) all images with a specified image/random image from a list</p>
+            </br>
+            <a style="width: 49%;" href="https://github.com/Alpheeexx/Image-Replacer"
+              class="waves-effect waves-light btn">View Source</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image">
+            <img class="card" src="files\images\kodi.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Kodi Rich-Prescence for Discord</span>
+            <p>This shows whaterver you are playing on kodi on your Discord profile picture using the Kodi JSON-RPC API.
+            </p>
+            </br>
+            <a style="width: 49%;" href="https://github.com/Alpheeexx/Discord-Kodi-RP"
+              class="waves-effect waves-light btn">View Source</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image">
+            <img class="card" src="files\images\GitHub_Logo.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title">GitHub dox checker</span>
+            <p>This tool finds all emails and usernames used in your public GitHub repositories to help you protect your
+              OPSEC.</p>
+            </br>
+            <a style="width: 49%;" href="GitHubDoxChecker/redirect.html" class="waves-effect waves-light btn">Access
+              Tool</a>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image">
+            <img style="height:160px;width:160px;margin:auto;" src="files\images\logo.webp">
+          </div>
+          <div class="card-content">
+            <span class="card-title">KG mini company</span>
+            <p>Created a website for a grinding-mini company within the Transport Tycoon FiveM community</p>
+            </br>
+            <a style="width: 49%;" href="https://github.com/Alpheeexx/kasual-grindz.ml"
+              class="waves-effect waves-light btn">Source Code</a>
+            <a style="width: 49%;" href="https://kasual-grindz.ml" class="waves-effect waves-light btn">View Site</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <br />
+    <div class="row">
+      <h6>Contact me:</h6>
+      <br />
+      <p>
+        <a href="https://twitter.com/alphex_"><img src="files/images/twitter-logo.svg" title
+            alt="Twitter: @Alphex_" /></a>
+        <a href="https://discordapp.com/users/748575889494638755"><img src="files/images/discord-logo.svg"
+            title="Discord: Alphex#6214" /></a>
+      </p>
+    </div>
+  </div>
+  <div class="fixed-action-btn">
+    <a class="btn" role="button"
+      onclick="localStorage.setItem('theme', localStorage.getItem('theme') === 'dark' ? 'light' : 'dark'); localStorage.getItem('theme') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')"
+      title="Dark/light">
+      Toggle Dark Mode
+    </a>
+  </div>
+</body>
+<script>
+  var theme = 'light';
+  if (localStorage.getItem('theme')) {
+    if (localStorage.getItem('theme') == 'dark') {
+      var theme = 'dark';
+    }
+  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    var theme = 'dark';
+  }
+
+  if (theme == 'dark') {
+    document.querySelector('body').classList.add('dark');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    localStorage.setItem('theme', 'light');
+  }
+</script>
+
+</html>

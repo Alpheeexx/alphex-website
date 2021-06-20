@@ -8,5 +8,12 @@ title = "Alphex's HTB Writeups"
 [output.html]
 git-repository-url = "https://github.com/Alpheeexx/alphex-website/tree/writeups"
 edit-url-template = "https://github.com/Alpheeexx/alphex-website/edit/writeups/{path}"
-additional-css = ["style.css"]
+additional-css = ["sidebar.css","custom.css"]
 additional-js = ["sidebar.js"]
+no-section-label = true
+default-theme = "navy"
+preferred-dark-theme = "ayu"
+
+[output.html.fold]
+enable = true
+level = 1

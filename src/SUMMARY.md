@@ -2,7 +2,7 @@
 [Introduction](README.md)
 
 - [Easy Boxes](easy/README.md)
-    - [Tenet]()
+    - [Tenet](easy/tenet/README.md)
 
 - [Medium Boxes](medium/README.md)
 

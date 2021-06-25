@@ -1,4 +1,4 @@
 # Medium Boxes
-| Box Name | Creator(s) |
-| -------- | ---------- |
-|          |            |
+| Box Name | Creator(s) | Link to Box |
+| -------- | ---------- | ----------- |
+|          |            |             |

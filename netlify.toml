@@ -4,7 +4,7 @@
   # command = "echo 'default context'"
 [context.writeups]
   publish = "book/"
-  command = "curl -L https://github.com/rust-lang/mdBook/releases/download/v0.4.10/mdbook-v0.4.10-x86_64-unknown-linux-gnu.tar.gz | tar xvz && ./mdbook build"
+  command = "curl -L https://github.com/rust-lang/mdBook/releases/download/v0.4.11/mdbook-v0.4.11-x86_64-unknown-linux-gnu.tar.gz | tar xvz && ./mdbook build"
 
 [build.processing]
   skip_processing = false
